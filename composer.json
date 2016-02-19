@@ -8,9 +8,15 @@
             "email": "info@frenky.net"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mjacobus/flysystem"
+        }
+    ],
     "require": {
         "php": ">=5.5.0",
-        "league/flysystem": "~1.0",
+        "league/flysystem": "dev-fix-mime-type-guess",
         "aws/aws-sdk-php": "^3.0.0"
     },
     "require-dev": {
